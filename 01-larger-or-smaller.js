@@ -9,9 +9,9 @@ let numberTwo = parseInt(prompt("Enter the second integer:"));
 
 // Compare and display the result
 if (numberOne > numberTwo) {
-    document.write("The larger number is: " + numberOne);
+    window.console.log("The larger number is: " + numberOne);
 } else if (numberTwo > numberOne) {
-    document.write("The larger number is: " + numberTwo);
+    window.console.log("The larger number is: " + numberTwo);
 } else {
-    document.write("Both numbers are equal.");
+    window.console.log("Both numbers are equal.");
 }
