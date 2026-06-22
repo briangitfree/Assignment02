@@ -3,10 +3,9 @@
 // Author: Brian Dinh
 
 
-
 // Prompt the user for two integers
-let num1 = parseInt(prompt("Enter the first integer:"), 10);
-let num2 = parseInt(prompt("Enter the second integer:"), 10);
+let num1 = parseInt(prompt("Enter the first integer:"));
+let num2 = parseInt(prompt("Enter the second integer:"));
 
 // Compare and display the result
 if (num1 > num2) {
