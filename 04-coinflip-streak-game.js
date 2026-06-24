@@ -5,20 +5,20 @@
 
 
 
-// 1. Declare the variable without assigning a value
+// Declare the variable for coin flip without assigning a value
 let coinFlip;
 
-// 2. Create a do...while loop
+// Create a do...while loop for ramdom 0 or 1 and check the condition for Heads or Tails
 do {
-    // 3. Assign a randomly generated number (0 or 1)
+    // Assign a randomly generated number (0 or 1)
     coinFlip = Math.floor(Math.random() * 2);
 
-    // 4. Use a conditional statement to check the result
+    // Use a conditional statement to check the result
     if (coinFlip === 0) {
         console.log("Heads");
     } else {
         console.log("Tails");
     }
 
-// 5. Continue looping while the result is NOT "Tails"
+// 5. Continue looping while until the result is not Tails
 } while (coinFlip !== 1);
